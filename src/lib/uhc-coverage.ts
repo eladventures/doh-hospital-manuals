@@ -222,19 +222,42 @@ export const covered: CoveredItem[] = [
   {
     uhcRequirement: 'Disease Surveillance & Reporting',
     section: 'Sec 17',
-    coverage: 'FULL',
+    coverage: 'PARTIAL',
     keyFiles: [
       'ra11332-disease-reporting-irr',
-      'pidsr-manual',
     ],
   },
 ];
 
 export const gaps: GapItem[] = [
   {
-    uhcRequirement: 'Population Health Approach (beyond surveillance)',
+    uhcRequirement: 'PIDSR Surveillance Manual',
     section: 'Sec 17',
     description:
-      'No document covers population-based health planning, community health needs assessment, epidemiological surveillance (PIDSR manual exists but was not yet acquired), or catchment area management.',
+      'The PIDSR Manual of Procedures (3rd Edition, 2014) could not be properly extracted from the source PDF (scanned/image-based). The RA 11332 IRR covers mandatory reporting rules but the operational surveillance manual is missing.',
+  },
+  {
+    uhcRequirement: 'Population Health Planning',
+    section: 'Sec 17',
+    description:
+      'No document covers population-based health planning, community health needs assessment, or catchment area management beyond disease surveillance.',
+  },
+  {
+    uhcRequirement: 'ICD-10 Philippine Adaptation & RVS Procedure Codes',
+    section: 'Sec 10-12',
+    description:
+      'PhilHealth case rates reference ICD-10 and RVS codes but no coding guidelines or code tables are in the corpus. Required for diagnosis/procedure coding in billing and clinical systems.',
+  },
+  {
+    uhcRequirement: 'PhilHealth e-Claims Submission API',
+    section: 'Sec 10-12',
+    description:
+      'Claims form guidelines cover paper CF1-CF4 but electronic claims submission rules, API specs, validation rules, and error handling are not documented in the corpus.',
+  },
+  {
+    uhcRequirement: 'NPC Data Privacy IRR & Health Data Advisory',
+    section: 'Sec 36',
+    description:
+      'The Data Privacy Act (RA 10173) full text is in the corpus but the Implementing Rules and Regulations (NPC Circular 2016-01) with operational data processing rules, breach notification procedures, and consent management requirements are missing.',
   },
 ];

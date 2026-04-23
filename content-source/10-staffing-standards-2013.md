@@ -1,17 +1,17 @@
 ---
 title: "Revised Organizational Structure and Staffing Standards for Government Hospitals, CY 2013 Edition"
-shorttitle: "Staffing Standards 2013"
-sourcepdf: "10. Manual RSSGH 3 levels 2013 Standards.pdf"
+short_title: "Staffing Standards 2013"
+source_pdf: "10. Manual RSSGH 3 levels 2013 Standards.pdf"
 category: "staffing"
 edition: "2013 Edition"
 year: 2013
-issuingbody: "Department of Health"
+issuing_body: "Department of Health"
 supersedes: null
-supersededby: "10a-staffing-standards-L3-2022.md"
-relateddocs: ["ao2012-0012-hospital-classification.md"]
-hospitallevels: [1, 2, 3]
+superseded_by: "10a-staffing-standards-L3-2022.md"
+related_docs: ["ao2012-0012-hospital-classification.md"]
+hospital_levels: [1, 2, 3]
 status: "superseded"
-extractiondate: "2026-04-23"
+extraction_date: "2026-04-23"
 ---
 
 # **Revised Organizational Structure and Staffing Standards for Government Hospitals**

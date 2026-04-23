@@ -310,7 +310,6 @@ export const useCases: UseCase[] = [
       'UHC Act Sec 17 covers population-based health services; RA 11332 mandates disease notification from all facilities.',
     docs: [
       { slug: 'ra11332-disease-reporting-irr', why: 'Revised IRR of mandatory disease reporting — what to report, when, how' },
-      { slug: 'pidsr-manual', why: 'PIDSR Manual of Procedures — the surveillance system every facility uses' },
     ],
   },
   {
