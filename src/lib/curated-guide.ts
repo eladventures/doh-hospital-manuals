@@ -313,4 +313,19 @@ export const useCases: UseCase[] = [
       { slug: 'pidsr-manual', why: 'PIDSR Manual of Procedures — the surveillance system every facility uses' },
     ],
   },
+  {
+    id: 'health-it-interoperability',
+    title: 'Health IT & Interoperability (NHDR/FHIR)',
+    description:
+      'NHDR framework, PHCDI FHIR profiles, PhilHealth claims data model. THE reference for building interoperable health systems in the Philippines.',
+    icon: 'FileText',
+    uhcRelevance:
+      'UHC Act Sec 36 mandates electronic health records and interoperable systems. NHDR is the national data repository all facilities must submit to.',
+    docs: [
+      { slug: 'phcdi-fhir-guide', why: 'PHCDI FHIR Implementation Guide — all PH-specific profiles, extensions, value sets for NHDR interop' },
+      { slug: 'nhdr-framework', why: 'NHDR Framework document — architecture, building blocks, data submission requirements' },
+      { slug: 'philhealth-claimform-guidelines', why: 'Claims Form CF1-CF4 guidelines — the data model for PhilHealth billing' },
+      { slug: 'ra10173-data-privacy', why: 'Data Privacy Act — governs patient data handling in health IT systems' },
+    ],
+  },
 ];

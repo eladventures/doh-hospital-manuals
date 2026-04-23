@@ -752,6 +752,7 @@
     "workforce-planning": "Health human resource master plan and workforce development",
     "formulary": "Philippine National Formulary and essential medicines list",
     "laws": "Republic Acts — UHC Act, Mental Health Act, Data Privacy Act",
-    "surveillance": "Disease surveillance, PIDSR, mandatory reporting"
+    "surveillance": "Disease surveillance, PIDSR, mandatory reporting",
+    "health-it": "Health IT standards, NHDR, FHIR, PHCDI, claims forms, interoperability"
   }
 }

@@ -182,12 +182,14 @@ export const covered: CoveredItem[] = [
     ],
   },
   {
-    uhcRequirement: 'Health Information Systems',
+    uhcRequirement: 'Health Information Systems & Interoperability',
     section: 'Sec 36',
-    coverage: 'PARTIAL',
+    coverage: 'FULL',
     keyFiles: [
+      'phcdi-fhir-guide',
+      'nhdr-framework',
+      'philhealth-claimform-guidelines',
       '11-health-info-management-4th-ed',
-      'dc2022-0293-mccod',
       'ra10173-data-privacy',
     ],
   },
@@ -229,12 +231,6 @@ export const covered: CoveredItem[] = [
 ];
 
 export const gaps: GapItem[] = [
-  {
-    uhcRequirement: 'EHR & IT Specifications',
-    section: 'Sec 36',
-    description:
-      'Health information management standards exist, but electronic health record system specifications, HL7 FHIR interoperability standards, and IT infrastructure requirements are fragmented. The NHDR FHIR Implementation Guide exists as a web spec but not as a consolidated PDF.',
-  },
   {
     uhcRequirement: 'Population Health Approach (beyond surveillance)',
     section: 'Sec 17',
