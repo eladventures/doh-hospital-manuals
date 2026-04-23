@@ -16,7 +16,7 @@ export interface Doc extends DocMeta {
 
 // ── Paths ──────────────────────────────────────────────────────────────
 
-const OUTPUT_DIR = path.join(process.cwd(), '..', 'output');
+const OUTPUT_DIR = path.join(process.cwd(), 'content-source');
 const EXCLUDED = new Set(['INDEX.md', 'VALIDATION.md']);
 
 // ── Helpers ────────────────────────────────────────────────────────────

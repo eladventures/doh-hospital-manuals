@@ -37,7 +37,7 @@ export interface Metadata {
 
 // ── Load metadata ──────────────────────────────────────────────────────
 
-const metadataPath = path.join(process.cwd(), '..', 'metadata.json');
+const metadataPath = path.join(process.cwd(), 'content-source', 'metadata.json');
 const raw = fs.readFileSync(metadataPath, 'utf-8');
 const metadata: Metadata = JSON.parse(raw);
 
