@@ -8,7 +8,7 @@ year: null
 issuing_body: "Department of Health"
 supersedes: null
 superseded_by: null
-related_docs: ["17-hospital-finance-standards.md", "18-procedures-manual-3rd-ed.md"]
+related_docs: ["17-hospital-finance-standards-1st-ed.md", "18-procedures-manual-3rd-ed.md"]
 hospital_levels: [1, 2, 3]
 status: "current"
 extraction_date: "2026-04-23"

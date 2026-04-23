@@ -285,4 +285,32 @@ export const useCases: UseCase[] = [
       { slug: '04-pharmacy-management-4th-ed', why: 'Hospital pharmacy management (operational context)' },
     ],
   },
+  {
+    id: 'legal-foundation',
+    title: 'Legal Foundation (Republic Acts)',
+    description:
+      'The actual laws that mandate the health system. UHC Act, Mental Health Act, Data Privacy Act. Every system must comply with these.',
+    icon: 'Shield',
+    uhcRelevance:
+      'RA 11223 IS the UHC Act. The other RAs create complementary mandates for mental health services and patient data protection.',
+    docs: [
+      { slug: 'ra11223-uhc-act', why: 'Full text of the Universal Health Care Act — the foundation for everything' },
+      { slug: 'ra11223-uhc-irr', why: 'Implementing Rules and Regulations — the detailed operational rules' },
+      { slug: 'ra11036-mental-health', why: 'Mental Health Act — mandates mental health services in health facilities' },
+      { slug: 'ra10173-data-privacy', why: 'Data Privacy Act — governs patient data handling in any health IT system' },
+    ],
+  },
+  {
+    id: 'disease-surveillance',
+    title: 'Disease Surveillance & Reporting',
+    description:
+      'PIDSR system, mandatory disease reporting. Required for all health facilities that see patients.',
+    icon: 'Bug',
+    uhcRelevance:
+      'UHC Act Sec 17 covers population-based health services; RA 11332 mandates disease notification from all facilities.',
+    docs: [
+      { slug: 'ra11332-disease-reporting-irr', why: 'Revised IRR of mandatory disease reporting — what to report, when, how' },
+      { slug: 'pidsr-manual', why: 'PIDSR Manual of Procedures — the surveillance system every facility uses' },
+    ],
+  },
 ];

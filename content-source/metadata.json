@@ -13,7 +13,7 @@
       "superseded_by": null,
       "hospital_levels": [1, 2, 3],
       "size_mb": 156,
-      "related_docs": ["17-hospital-finance-standards.md", "18-procedures-manual-3rd-ed.md"]
+      "related_docs": ["17-hospital-finance-standards-1st-ed.md", "18-procedures-manual-3rd-ed.md"]
     },
     {
       "source_pdf": "2. HOSPITAL PROPERTY AND SUPPLY MANANGEMENT MANUAL2.pdf",
@@ -750,6 +750,8 @@
     "philhealth": "PhilHealth accreditation, benefit packages, case rates, and billing",
     "primary-care": "Primary care facility licensing and standards",
     "workforce-planning": "Health human resource master plan and workforce development",
-    "formulary": "Philippine National Formulary and essential medicines list"
+    "formulary": "Philippine National Formulary and essential medicines list",
+    "laws": "Republic Acts — UHC Act, Mental Health Act, Data Privacy Act",
+    "surveillance": "Disease surveillance, PIDSR, mandatory reporting"
   }
 }

@@ -188,6 +188,42 @@ export const covered: CoveredItem[] = [
     keyFiles: [
       '11-health-info-management-4th-ed',
       'dc2022-0293-mccod',
+      'ra10173-data-privacy',
+    ],
+  },
+  // Laws (the actual legal foundation)
+  {
+    uhcRequirement: 'UHC Act Full Text & IRR',
+    section: 'Full Act',
+    coverage: 'FULL',
+    keyFiles: [
+      'ra11223-uhc-act',
+      'ra11223-uhc-irr',
+    ],
+  },
+  {
+    uhcRequirement: 'Mental Health Services',
+    section: 'Complementary law',
+    coverage: 'FULL',
+    keyFiles: [
+      'ra11036-mental-health',
+    ],
+  },
+  {
+    uhcRequirement: 'Patient Data Privacy',
+    section: 'Sec 36',
+    coverage: 'FULL',
+    keyFiles: [
+      'ra10173-data-privacy',
+    ],
+  },
+  {
+    uhcRequirement: 'Disease Surveillance & Reporting',
+    section: 'Sec 17',
+    coverage: 'FULL',
+    keyFiles: [
+      'ra11332-disease-reporting-irr',
+      'pidsr-manual',
     ],
   },
 ];
@@ -200,7 +236,7 @@ export const gaps: GapItem[] = [
       'Health information management standards exist, but electronic health record system specifications, HL7 FHIR interoperability standards, and IT infrastructure requirements are fragmented. The NHDR FHIR Implementation Guide exists as a web spec but not as a consolidated PDF.',
   },
   {
-    uhcRequirement: 'Population Health Approach',
+    uhcRequirement: 'Population Health Approach (beyond surveillance)',
     section: 'Sec 17',
     description:
       'No document covers population-based health planning, community health needs assessment, epidemiological surveillance (PIDSR manual exists but was not yet acquired), or catchment area management.',
