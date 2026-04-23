@@ -746,6 +746,10 @@
     "laboratory": "Lab biosafety, specimen transport, blood services (NVBSP)",
     "emergency": "Emergency department management standards",
     "policies": "Administrative orders, department circulars, licensing, patient safety, CQI, IHOMP",
-    "planning": "Long-term health facility development planning"
+    "planning": "Long-term health facility development planning",
+    "philhealth": "PhilHealth accreditation, benefit packages, case rates, and billing",
+    "primary-care": "Primary care facility licensing and standards",
+    "workforce-planning": "Health human resource master plan and workforce development",
+    "formulary": "Philippine National Formulary and essential medicines list"
   }
 }

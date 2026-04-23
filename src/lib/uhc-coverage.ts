@@ -135,6 +135,52 @@ export const covered: CoveredItem[] = [
       '22-green-safe-operational-guidelines',
     ],
   },
+  // Previously gaps, now covered:
+  {
+    uhcRequirement: 'PhilHealth Benefit Packages & Case Rates',
+    section: 'Sec 10-12',
+    coverage: 'FULL',
+    keyFiles: [
+      'annex-a-medical-case-rates',
+      'annex-b-procedure-case-rates',
+    ],
+  },
+  {
+    uhcRequirement: 'PhilHealth Accreditation',
+    section: 'Sec 22',
+    coverage: 'FULL',
+    keyFiles: [
+      'peaches-manual',
+      'pc2023-0024-accreditation',
+      'accreditation-requirements',
+    ],
+  },
+  {
+    uhcRequirement: 'Primary Care Facility Licensing',
+    section: 'Sec 20-21',
+    coverage: 'FULL',
+    keyFiles: [
+      'pcf-manual-standards',
+      'ao2020-0047-pcf-licensing',
+    ],
+  },
+  {
+    uhcRequirement: 'Health Human Resources Plan',
+    section: 'Sec 28',
+    coverage: 'FULL',
+    keyFiles: [
+      'hhrh-masterplan-2020-2040',
+    ],
+  },
+  {
+    uhcRequirement: 'National Formulary & Essential Medicines',
+    section: 'Sec 35',
+    coverage: 'FULL',
+    keyFiles: [
+      'pnf-essential-medicines',
+      '04-pharmacy-management-4th-ed',
+    ],
+  },
   {
     uhcRequirement: 'Health Information Systems',
     section: 'Sec 36',
@@ -144,64 +190,19 @@ export const covered: CoveredItem[] = [
       'dc2022-0293-mccod',
     ],
   },
-  {
-    uhcRequirement: 'Pharmacy & Drug Management',
-    section: 'Sec 35',
-    coverage: 'PARTIAL',
-    keyFiles: [
-      '04-pharmacy-management-4th-ed',
-      '02-property-supply-management',
-    ],
-  },
 ];
 
 export const gaps: GapItem[] = [
   {
-    uhcRequirement: 'PhilHealth Benefit Packages',
-    section: 'Sec 10-12',
+    uhcRequirement: 'EHR & IT Specifications',
+    section: 'Sec 36',
     description:
-      'No DOH hospital manual covers PhilHealth benefit package design, case rate computation, or claims processing workflows. Hospitals rely on PhilHealth circulars.',
-  },
-  {
-    uhcRequirement: 'Health Technology Assessment',
-    section: 'Sec 31',
-    description:
-      'No manual addresses health technology assessment processes. The UHC Act established HTA as a basis for benefit coverage decisions.',
+      'Health information management standards exist, but electronic health record system specifications, HL7 FHIR interoperability standards, and IT infrastructure requirements are fragmented. The NHDR FHIR Implementation Guide exists as a web spec but not as a consolidated PDF.',
   },
   {
     uhcRequirement: 'Population Health Approach',
     section: 'Sec 17',
     description:
-      'No hospital manual covers population-based health planning, community health needs assessment, or catchment area management.',
-  },
-  {
-    uhcRequirement: 'Primary Care Facility Licensing',
-    section: 'Sec 20-21',
-    description:
-      'Existing licensing tools focus on hospitals. No manual covers primary care network licensing or integration with hospital referral systems.',
-  },
-  {
-    uhcRequirement: 'Health Human Resources for Health Plan',
-    section: 'Sec 28',
-    description:
-      'Staffing standards exist, but a comprehensive HHRH plan covering training, deployment, retention, and career pathways is not addressed.',
-  },
-  {
-    uhcRequirement: 'EHR & IT Specifications',
-    section: 'Sec 36',
-    description:
-      'Health information management is covered, but electronic health record system specifications, interoperability standards, and IT infrastructure requirements are absent.',
-  },
-  {
-    uhcRequirement: 'National Formulary Compliance',
-    section: 'Sec 35',
-    description:
-      'Pharmacy management is covered, but alignment with the Philippine National Formulary and essential medicines list procurement requirements is not addressed.',
-  },
-  {
-    uhcRequirement: 'PhilHealth Accreditation',
-    section: 'Sec 22',
-    description:
-      'Hospital licensing is covered, but PhilHealth-specific accreditation requirements, quality benchmarks, and reaccreditation processes are not included in DOH manuals.',
+      'No document covers population-based health planning, community health needs assessment, epidemiological surveillance (PIDSR manual exists but was not yet acquired), or catchment area management.',
   },
 ];

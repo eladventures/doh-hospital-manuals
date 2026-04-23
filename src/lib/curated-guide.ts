@@ -218,4 +218,71 @@ export const useCases: UseCase[] = [
       { slug: '29-waste-management-audit', why: 'Waste management audit guidelines and tools' },
     ],
   },
+  {
+    id: 'philhealth-accreditation',
+    title: 'PhilHealth Accreditation',
+    description:
+      'PhilHealth accreditation process, documentary requirements, and performance commitments for health facilities joining the National Health Insurance Program.',
+    icon: 'Award',
+    uhcRelevance:
+      'UHC Act Sec 22 mandates all health facilities be PhilHealth-accredited; PEACHeS defines the process.',
+    docs: [
+      { slug: 'peaches-manual', why: 'Complete Manual of Procedure for PhilHealth accreditation (PEACHeS)' },
+      { slug: 'pc2023-0024-accreditation', why: 'Latest omnibus guidelines on health facility accreditation to NHIP' },
+      { slug: 'accreditation-requirements', why: 'Documentary requirements checklist for accreditation' },
+    ],
+  },
+  {
+    id: 'philhealth-benefits-billing',
+    title: 'PhilHealth Benefits & Case Rates',
+    description:
+      'PhilHealth benefit packages, medical and procedure case rates for hospital billing integration.',
+    icon: 'Wallet',
+    uhcRelevance:
+      'UHC Act Sec 10-12 defines PhilHealth benefit structure; case rates are the billing foundation.',
+    docs: [
+      { slug: 'annex-a-medical-case-rates', why: 'Complete list of PhilHealth medical case rates (2024, 50% adjusted)' },
+      { slug: 'annex-b-procedure-case-rates', why: 'Complete list of PhilHealth procedure case rates (2024, 50% adjusted)' },
+      { slug: '19-pcf-manual-2020', why: 'Patient Care Financing manual for billing context' },
+    ],
+  },
+  {
+    id: 'primary-care-facilities',
+    title: 'Primary Care Facility Licensing',
+    description:
+      'Licensing standards for primary care facilities (RHUs, UHCs, BHS) outside hospital settings.',
+    icon: 'Building',
+    uhcRelevance:
+      'UHC Act Sec 20-21 mandates primary care as foundation of UHC; all PCFs must be DOH-licensed.',
+    docs: [
+      { slug: 'pcf-manual-standards', why: 'Manual of Standards for Primary Care Facilities' },
+      { slug: 'ao2020-0047-pcf-licensing', why: 'Administrative Order on PCF licensure requirements' },
+    ],
+  },
+  {
+    id: 'workforce-planning',
+    title: 'Health Workforce Planning',
+    description:
+      'National health human resource master plan — workforce production, retention, and deployment strategies.',
+    icon: 'Users',
+    uhcRelevance:
+      'UHC Act Sec 28 requires adequate HRH; the master plan sets 20-year workforce targets.',
+    docs: [
+      { slug: 'hhrh-masterplan-2020-2040', why: 'National HRH Master Plan 2020-2040 — full strategic framework' },
+      { slug: '10b-staffing-standards-revised-2023', why: 'Current staffing standards (operational counterpart to the plan)' },
+    ],
+  },
+  {
+    id: 'national-formulary',
+    title: 'National Formulary & Essential Medicines',
+    description:
+      'Philippine National Formulary — the essential medicines list that defines what drugs should be available.',
+    icon: 'Pill',
+    uhcRelevance:
+      'UHC Act Sec 35 mandates drug price transparency; PNF-EML defines the essential medicines baseline.',
+    docs: [
+      { slug: 'pnf-essential-medicines', why: 'Philippine National Formulary — Essential Medicines List' },
+      { slug: '04-pharmacy-management-4th-ed', why: 'Hospital pharmacy management (operational context)' },
+    ],
+  },
 ];
