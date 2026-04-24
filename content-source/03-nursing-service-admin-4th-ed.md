@@ -12,6 +12,9 @@ related_docs: ["10-staffing-standards-2013.md"]
 hospital_levels: [1, 2, 3]
 status: "current"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 28"
+tier: "reference"
+platform_role: "reference"
 ---
 
 HOSPITAL NURSING SERVICE

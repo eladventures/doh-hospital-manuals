@@ -9,6 +9,12 @@ hospital_levels: [1, 2, 3]
 uhc_section: "Sec 22"
 related_docs: ['pc2023-0024-accreditation.md', 'accreditation-requirements.md']
 extraction_date: "2026-04-24"
+tier: "rules"
+platform_role: "validation_rules"
+source_pdf: null
+supersedes: null
+superseded_by: null
+edition: null
 ---
 # Manual of Procedure: Provider Engagement through Accreditation for a Competitive Health System (PEACHeS)
 

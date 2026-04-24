@@ -9,6 +9,12 @@ hospital_levels: [1, 2, 3]
 uhc_section: "Sec 20-21"
 related_docs: ['ao2020-0047-pcf-licensing.md']
 extraction_date: "2026-04-24"
+tier: "rules"
+platform_role: "validation_rules"
+source_pdf: null
+supersedes: null
+superseded_by: null
+edition: null
 ---
 # Manual of Standards for Primary Care Facilities
 

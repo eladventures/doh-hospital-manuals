@@ -12,6 +12,9 @@ related_docs: ["18-1-procedures-manual-2nd-ed-part1.md", "18-procedures-manual-3
 hospital_levels: [1, 2, 3]
 status: "superseded"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 18-19"
+tier: "reference"
+platform_role: "reference"
 ---
 
 ![](_page_0_Figure_0.jpeg)

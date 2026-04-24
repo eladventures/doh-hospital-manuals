@@ -12,6 +12,9 @@ related_docs: ["15-hospital-design-250bed-L3.md", "16-hospital-design-100bed-L2.
 hospital_levels: [1, 2, 3]
 status: "current"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 25-26"
+tier: "reference"
+platform_role: "reference"
 ---
 
 CHAPTER TITLE

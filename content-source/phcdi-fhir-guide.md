@@ -10,6 +10,11 @@ uhc_section: "Sec 31, 36"
 related_docs: ["nhdr-framework.md", "philhealth-claimform-guidelines.md", "ra11223-uhc-act.md"]
 extraction_date: "2026-04-24"
 source_url: "https://build.fhir.org/ig/UP-Manila-SILab/PhilHealth-NHDR-IG-Review/"
+tier: "data"
+platform_role: "api_contract"
+supersedes: null
+superseded_by: null
+edition: null
 ---
 
 # Philippine Core Data for Interoperability (PHCDI) — FHIR Implementation Guide

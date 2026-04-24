@@ -13,6 +13,9 @@ hospital_levels: [1, 2, 3]
 status: "current"
 extraction_date: "2026-04-23"
 extraction_method: "marker-v1.10.2 + metadata-enrichment"
+uhc_section: "Sec 35"
+tier: "reference"
+platform_role: "reference"
 ---
 
 # Hospital Pharmacy Management Manual, 4th Edition

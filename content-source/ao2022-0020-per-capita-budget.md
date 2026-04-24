@@ -12,6 +12,9 @@ related_docs: ["17-hospital-finance-standards-1st-ed.md", "19-pcf-manual-2020.md
 hospital_levels: [1, 2, 3]
 status: "current"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 10-11"
+tier: "rules"
+platform_role: "validation_rules"
 ---
 
 ![](_page_0_Picture_0.jpeg)

@@ -2,7 +2,7 @@
 title: "Guide in Developing Water Safety Plan for Health Facilities"
 short_title: "Water Safety Plan Guide"
 source_pdf: "24. Guide in Developing Water Saftey Plan for Health Facilities.pdf"
-category: "WASH"
+category: "wash"
 edition: null
 year: null
 issuing_body: "Department of Health"
@@ -12,6 +12,9 @@ related_docs: ["25-sanitation-safety-plan.md", "23-wash-facility-improvement-too
 hospital_levels: [1, 2, 3]
 status: "current"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 25"
+tier: "reference"
+platform_role: "reference"
 ---
 
 ![](_page_0_Picture_0.jpeg)

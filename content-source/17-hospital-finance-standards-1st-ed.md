@@ -12,6 +12,9 @@ related_docs: ["01-admin-finance-org-management.md", "ao2022-0020-per-capita-bud
 hospital_levels: [1, 2, 3]
 status: "current"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 10-11"
+tier: "reference"
+platform_role: "reference"
 ---
 
  

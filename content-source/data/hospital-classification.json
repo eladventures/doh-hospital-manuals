@@ -1,0 +1,59 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "description": "Basic hospital with consulting specialists",
+      "services": {
+        "clinical": [
+          "Family Medicine",
+          "Pediatrics",
+          "Internal Medicine",
+          "OB-Gyne",
+          "Surgery"
+        ],
+        "emergency": true,
+        "outpatient": true,
+        "operating_room": true,
+        "maternity": true,
+        "isolation": true,
+        "dental": true,
+        "blood_station": true,
+        "laboratory": "Secondary Clinical Laboratory",
+        "imaging": "Level 1 (basic X-ray)",
+        "pharmacy": true
+      },
+      "bed_capacity_range": "25-75"
+    },
+    {
+      "level": 2,
+      "description": "Departmentalized hospital with board-certified specialists",
+      "services": {
+        "all_of_level_1": true,
+        "departmentalized_clinical": true,
+        "icu": "General ICU",
+        "nicu": true,
+        "hrpu": "High Risk Pregnancy Unit",
+        "respiratory_therapy": true,
+        "laboratory": "Tertiary Clinical Laboratory",
+        "imaging": "Level 2 (with mobile X-ray, contrast)"
+      },
+      "bed_capacity_range": "100-200"
+    },
+    {
+      "level": 3,
+      "description": "Teaching/training hospital with residency programs",
+      "services": {
+        "all_of_level_2": true,
+        "residency_training": "4 major specialties",
+        "rehabilitation": "Physical Medicine and Rehabilitation Unit",
+        "ambulatory_surgery": true,
+        "dialysis": true,
+        "blood_bank": true,
+        "laboratory": "Tertiary with histopathology",
+        "imaging": "Level 3 (interventional radiology)"
+      },
+      "bed_capacity_range": "200-1500"
+    }
+  ],
+  "source": "AO 2012-0012"
+}

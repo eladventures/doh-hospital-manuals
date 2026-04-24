@@ -2,7 +2,7 @@
 title: "Guide in Developing Sanitation Safety Plan (SSP) for Health Facilities"
 short_title: "SSP Development Guide"
 source_pdf: "25. Guide in Developing Sanitation Safety Plan for Health Facilities.pdf"
-category: "WASH"
+category: "wash"
 edition: "1st Edition"
 year: 2020
 issuing_body: "Department of Health"
@@ -12,6 +12,9 @@ related_docs: ["24-water-safety-plan.md", "23-wash-facility-improvement-tool.md"
 hospital_levels: [1, 2, 3]
 status: "current"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 25"
+tier: "reference"
+platform_role: "reference"
 ---
 
 GUIDE IN DEVELOPING SANITATION SAFETY PLAN (SSP) FOR HEALTH FACILITIES

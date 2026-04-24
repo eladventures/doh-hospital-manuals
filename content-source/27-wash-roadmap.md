@@ -2,7 +2,7 @@
 title: "Philippine Roadmap for Sustainable, Safe, and Universal Access to Water, Sanitation, Hygiene and Waste in Health Facilities"
 short_title: "WASH Roadmap Philippines"
 source_pdf: "27. Philippine Roadmap for Sustainable, Safe, and Universal Access to Water, Sanitation, Hygiene and Waste in Health Facilities.pdf"
-category: "WASH"
+category: "wash"
 edition: null
 year: null
 issuing_body: "Department of Health"
@@ -12,6 +12,9 @@ related_docs: ["23-wash-facility-improvement-tool.md", "25-sanitation-safety-pla
 hospital_levels: [1, 2, 3]
 status: "current"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 25"
+tier: "reference"
+platform_role: "reference"
 ---
 
 ![](_page_0_Picture_0.jpeg)

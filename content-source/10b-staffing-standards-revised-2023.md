@@ -12,6 +12,9 @@ related_docs: ["10a-staffing-standards-L3-2022.md", "10-staffing-standards-2013.
 hospital_levels: [1, 2, 3]
 status: "current"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 28"
+tier: "data"
+platform_role: "schema_source"
 ---
 
 ![](_page_0_Picture_0.jpeg)

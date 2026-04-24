@@ -12,6 +12,9 @@ related_docs: ["10b-staffing-standards-revised-2023.md", "10-staffing-standards-
 hospital_levels: [3]
 status: "current"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 28"
+tier: "data"
+platform_role: "schema_source"
 ---
 
 # Revised Organizational Structure and Staffing Standards for Level III General Government Hospitals

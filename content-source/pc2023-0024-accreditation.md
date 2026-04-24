@@ -9,6 +9,12 @@ hospital_levels: [1, 2, 3]
 uhc_section: "Sec 22"
 related_docs: ['peaches-manual.md', 'accreditation-requirements.md']
 extraction_date: "2026-04-24"
+tier: "rules"
+platform_role: "validation_rules"
+source_pdf: null
+supersedes: null
+superseded_by: null
+edition: null
 ---
 # PC 2023-0024: Omnibus Guidelines on Accreditation of Health Facilities to NHIP
 

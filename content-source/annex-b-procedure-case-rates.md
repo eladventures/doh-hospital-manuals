@@ -9,6 +9,12 @@ hospital_levels: [1, 2, 3]
 uhc_section: "Sec 10-12"
 related_docs: ['annex-a-medical-case-rates.md']
 extraction_date: "2026-04-24"
+tier: "data"
+platform_role: "schema_source"
+source_pdf: null
+supersedes: null
+superseded_by: null
+edition: null
 ---
 # PhilHealth Procedure Case Rates (Annex B to PC2024-0037)
 

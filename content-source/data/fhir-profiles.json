@@ -1,0 +1,91 @@
+{
+  "ig_version": "Release 1.0 v0.1.0",
+  "fhir_version": "R4 (4.0.1)",
+  "source": "https://build.fhir.org/ig/UP-Manila-SILab/PhilHealth-NHDR-IG-Review/",
+  "profiles": {
+    "foundation": [
+      "Provenance"
+    ],
+    "base": [
+      "Appointment",
+      "Encounter",
+      "Organization",
+      "Patient",
+      "Person",
+      "Practitioner",
+      "PractitionerRole",
+      "RelatedPerson"
+    ],
+    "clinical": [
+      "AllergyIntolerance",
+      "CarePlan",
+      "ClinicalImpression",
+      "Condition",
+      "DiagnosticReport",
+      "FamilyMemberHistory",
+      "Goal",
+      "Immunization",
+      "Medication",
+      "MedicationAdministration",
+      "MedicationDispense",
+      "MedicationRequest",
+      "MedicationStatement",
+      "Observation",
+      "Procedure",
+      "QuestionnaireResponse",
+      "ServiceRequest",
+      "Specimen"
+    ],
+    "financial": [
+      "Claim",
+      "Coverage",
+      "EnrollmentRequest"
+    ],
+    "specialized": [
+      "Questionnaire"
+    ]
+  },
+  "extensions_count": 30,
+  "value_sets_count": 21,
+  "code_systems_count": 16,
+  "ph_code_systems": [
+    "PSGC",
+    "PSCED",
+    "PSOC",
+    "DrugCodes (FDA)",
+    "NHFR",
+    "RVS"
+  ],
+  "claims_form_mapping": {
+    "CF1": [
+      "Patient",
+      "Coverage",
+      "EnrollmentRequest"
+    ],
+    "CF2": [
+      "Encounter",
+      "Condition",
+      "Procedure",
+      "Claim"
+    ],
+    "CF3": [
+      "Practitioner",
+      "PractitionerRole",
+      "ServiceRequest"
+    ],
+    "CF4": [
+      "Medication",
+      "MedicationAdministration",
+      "MedicationDispense"
+    ]
+  },
+  "gaps": [
+    "No LOINC",
+    "No SNOMED CT",
+    "No DICOM",
+    "No Consent profile",
+    "No CareTeam",
+    "No EpisodeOfCare",
+    "No Subscription/messaging"
+  ]
+}

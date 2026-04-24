@@ -9,6 +9,12 @@ hospital_levels: [1, 2, 3]
 uhc_section: "Sec 36 (health data governance)"
 related_docs: ['11-health-info-management-4th-ed.md']
 extraction_date: "2026-04-24"
+tier: "rules"
+platform_role: "validation_rules"
+source_pdf: null
+supersedes: null
+superseded_by: null
+edition: null
 ---
 
 # Republic Act No. 10173: Data Privacy Act of 2012

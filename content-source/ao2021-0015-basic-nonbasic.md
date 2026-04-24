@@ -12,6 +12,9 @@ related_docs: ["ao2012-0012-hospital-classification.md"]
 hospital_levels: [1, 2, 3]
 status: "current"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 22"
+tier: "rules"
+platform_role: "validation_rules"
 ---
 
 ![](_page_0_Picture_0.jpeg)

@@ -2,7 +2,7 @@
 title: "Guidelines of Water & Sanitation for Health Facility Improvement Tool"
 short_title: "WASH Facility Improvement Tool"
 source_pdf: "23. Guidelines of Water & Sanitation for Health Facility Improvement Tool.pdf"
-category: "WASH"
+category: "wash"
 edition: null
 year: null
 issuing_body: "Department of Health"
@@ -12,6 +12,9 @@ related_docs: ["24-water-safety-plan.md", "25-sanitation-safety-plan.md", "28-wa
 hospital_levels: [1, 2, 3]
 status: "current"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 25"
+tier: "reference"
+platform_role: "reference"
 ---
 
 ![](_page_0_Figure_0.jpeg)

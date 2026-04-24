@@ -2,7 +2,7 @@
 title: "Manual for Standards for Sanitaria"
 short_title: "Sanitaria Standards"
 source_pdf: "26. MANUAL FOR STANDARDS FOR SANITARIA.pdf"
-category: "WASH"
+category: "wash"
 edition: null
 year: null
 issuing_body: "Department of Health"
@@ -12,6 +12,9 @@ related_docs: ["25-sanitation-safety-plan.md"]
 hospital_levels: [1, 2, 3]
 status: "current"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 25"
+tier: "reference"
+platform_role: "reference"
 ---
 
 ![](_page_0_Figure_0.jpeg)

@@ -9,6 +9,12 @@ hospital_levels: [1, 2, 3]
 uhc_section: "Sec 35"
 related_docs: ['04-pharmacy-management-4th-ed.md']
 extraction_date: "2026-04-24"
+tier: "data"
+platform_role: "schema_source"
+source_pdf: null
+supersedes: null
+superseded_by: null
+edition: null
 ---
 # Philippine National Formulary - Essential Medicines List
 

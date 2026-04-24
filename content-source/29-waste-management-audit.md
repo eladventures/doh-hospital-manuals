@@ -12,6 +12,9 @@ related_docs: ["12-waste-management-4th-ed-2020.md"]
 hospital_levels: [1, 2, 3]
 status: "current"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 25"
+tier: "reference"
+platform_role: "reference"
 ---
 
 # *Health Care Waste Management Audit Guidelines*

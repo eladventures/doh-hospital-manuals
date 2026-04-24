@@ -12,6 +12,9 @@ related_docs: ["nvbsp-blood-donor-selection.md", "nvbsp-clinical-practice-guidel
 hospital_levels: [2, 3]
 status: "current"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 22"
+tier: "reference"
+platform_role: "reference"
 ---
 
 Manual of

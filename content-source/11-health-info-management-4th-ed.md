@@ -12,6 +12,9 @@ related_docs: []
 hospital_levels: [1, 2, 3]
 status: "current"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 36"
+tier: "reference"
+platform_role: "reference"
 ---
 
 ![](_page_0_Figure_0.jpeg)

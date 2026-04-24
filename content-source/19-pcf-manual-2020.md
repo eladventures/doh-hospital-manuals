@@ -12,6 +12,9 @@ related_docs: ["ao2021-0044-patient-eligibility.md", "ao2022-0020-per-capita-bud
 hospital_levels: [1, 2, 3]
 status: "current"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 10-11"
+tier: "reference"
+platform_role: "reference"
 ---
 
 # **MESSAGE**

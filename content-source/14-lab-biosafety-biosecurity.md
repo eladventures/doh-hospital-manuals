@@ -12,6 +12,9 @@ related_docs: ["13-lab-specimen-transport.md"]
 hospital_levels: [1, 2, 3]
 status: "current"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 22"
+tier: "reference"
+platform_role: "reference"
 ---
 
 ![](_page_0_Picture_0.jpeg)

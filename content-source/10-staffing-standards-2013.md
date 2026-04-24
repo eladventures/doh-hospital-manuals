@@ -12,6 +12,9 @@ related_docs: ["ao2012-0012-hospital-classification.md"]
 hospital_levels: [1, 2, 3]
 status: "superseded"
 extraction_date: "2026-04-23"
+uhc_section: "Sec 28"
+tier: "data"
+platform_role: "schema_source"
 ---
 
 # **Revised Organizational Structure and Staffing Standards for Government Hospitals**

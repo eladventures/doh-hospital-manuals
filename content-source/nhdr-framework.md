@@ -9,6 +9,12 @@ hospital_levels: [1, 2, 3]
 uhc_section: "Sec 31, 36"
 related_docs: ['ra11223-uhc-act.md', 'phcdi-fhir-guide.md', 'philhealth-claimform-guidelines.md']
 extraction_date: "2026-04-24"
+tier: "data"
+platform_role: "api_contract"
+source_pdf: null
+supersedes: null
+superseded_by: null
+edition: null
 ---
 
 # National Health Data Repository (NHDR) Framework

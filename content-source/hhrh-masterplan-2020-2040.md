@@ -9,6 +9,12 @@ hospital_levels: [1, 2, 3]
 uhc_section: "Sec 28"
 related_docs: ['10a-staffing-standards-L3-2022.md', '10b-staffing-standards-revised-2023.md']
 extraction_date: "2026-04-24"
+tier: "rules"
+platform_role: "reference"
+source_pdf: null
+supersedes: null
+superseded_by: null
+edition: null
 ---
 # National Human Resources for Health Master Plan 2020-2040
 

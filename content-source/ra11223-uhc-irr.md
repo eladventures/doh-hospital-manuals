@@ -9,6 +9,12 @@ hospital_levels: [1, 2, 3]
 uhc_section: "Full IRR"
 related_docs: ['ra11223-uhc-act.md']
 extraction_date: "2026-04-24"
+tier: "rules"
+platform_role: "validation_rules"
+source_pdf: null
+supersedes: null
+superseded_by: null
+edition: null
 ---
 
 # Implementing Rules and Regulations of the Universal Health Care Act (RA 11223)
