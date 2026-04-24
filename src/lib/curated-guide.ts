@@ -298,6 +298,7 @@ export const useCases: UseCase[] = [
       { slug: 'ra11223-uhc-irr', why: 'Implementing Rules and Regulations — the detailed operational rules' },
       { slug: 'ra11036-mental-health', why: 'Mental Health Act — mandates mental health services in health facilities' },
       { slug: 'ra10173-data-privacy', why: 'Data Privacy Act — governs patient data handling in any health IT system' },
+      { slug: 'npc-dpa-irr', why: 'Data Privacy Act IRR — operational rules for data processing, breach notification, consent management' },
     ],
   },
   {
@@ -310,6 +311,7 @@ export const useCases: UseCase[] = [
       'UHC Act Sec 17 covers population-based health services; RA 11332 mandates disease notification from all facilities.',
     docs: [
       { slug: 'ra11332-disease-reporting-irr', why: 'Revised IRR of mandatory disease reporting — what to report, when, how' },
+      { slug: 'pidsr-manual', why: 'PIDSR Manual of Procedures (3rd ed) — the surveillance system all facilities use' },
     ],
   },
   {

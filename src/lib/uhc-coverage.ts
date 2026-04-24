@@ -217,25 +217,21 @@ export const covered: CoveredItem[] = [
     coverage: 'FULL',
     keyFiles: [
       'ra10173-data-privacy',
+      'npc-dpa-irr',
     ],
   },
   {
     uhcRequirement: 'Disease Surveillance & Reporting',
     section: 'Sec 17',
-    coverage: 'PARTIAL',
+    coverage: 'FULL',
     keyFiles: [
       'ra11332-disease-reporting-irr',
+      'pidsr-manual',
     ],
   },
 ];
 
 export const gaps: GapItem[] = [
-  {
-    uhcRequirement: 'PIDSR Surveillance Manual',
-    section: 'Sec 17',
-    description:
-      'The PIDSR Manual of Procedures (3rd Edition, 2014) could not be properly extracted from the source PDF (scanned/image-based). The RA 11332 IRR covers mandatory reporting rules but the operational surveillance manual is missing.',
-  },
   {
     uhcRequirement: 'Population Health Planning',
     section: 'Sec 17',
@@ -253,11 +249,5 @@ export const gaps: GapItem[] = [
     section: 'Sec 10-12',
     description:
       'Claims form guidelines cover paper CF1-CF4 but electronic claims submission rules, API specs, validation rules, and error handling are not documented in the corpus.',
-  },
-  {
-    uhcRequirement: 'NPC Data Privacy IRR & Health Data Advisory',
-    section: 'Sec 36',
-    description:
-      'The Data Privacy Act (RA 10173) full text is in the corpus but the Implementing Rules and Regulations (NPC Circular 2016-01) with operational data processing rules, breach notification procedures, and consent management requirements are missing.',
   },
 ];
