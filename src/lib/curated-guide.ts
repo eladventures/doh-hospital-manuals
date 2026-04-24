@@ -327,4 +327,20 @@ export const useCases: UseCase[] = [
       { slug: 'ra10173-data-privacy', why: 'Data Privacy Act — governs patient data handling in health IT systems' },
     ],
   },
+  {
+    id: 'global-standards',
+    title: 'Global Standards (WHO/ICD-10)',
+    description:
+      'International standards that complement Philippine-specific docs. ICD-10 coding, surgical safety, digital health strategy, referral systems.',
+    icon: 'Shield',
+    uhcRelevance:
+      'Philippine health systems use ICD-10 for diagnosis coding, WHO surgical safety standards, and align with WHO digital health strategy.',
+    docs: [
+      { slug: 'icd10-volume2-instructions', why: 'ICD-10 coding instruction manual (WHO) — the global standard PhilHealth uses for diagnosis coding' },
+      { slug: 'icd10-cm-coding-guidelines', why: 'ICD-10-CM coding guidelines (US) — detailed coding rules applicable to any ICD-10 implementation' },
+      { slug: 'who-digital-health-strategy', why: 'WHO Global Strategy on Digital Health 2020-2025 — framework for national digital health systems' },
+      { slug: 'who-referral-systems', why: 'WHO referral systems guidance — framework for health facility referral networks' },
+      { slug: 'who-surgical-safety-checklist', why: 'WHO Surgical Safety Checklist — global standard for OR safety' },
+    ],
+  },
 ];

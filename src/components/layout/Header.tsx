@@ -18,6 +18,14 @@ const categories = [
   { slug: 'emergency', name: 'Emergency' },
   { slug: 'policies', name: 'Policies' },
   { slug: 'planning', name: 'Planning' },
+  { slug: 'philhealth', name: 'PhilHealth' },
+  { slug: 'primary-care', name: 'Primary Care' },
+  { slug: 'workforce-planning', name: 'Workforce Planning' },
+  { slug: 'formulary', name: 'Formulary' },
+  { slug: 'laws', name: 'Laws' },
+  { slug: 'surveillance', name: 'Surveillance' },
+  { slug: 'health-it', name: 'Health IT' },
+  { slug: 'global-standards', name: 'Global Standards' },
 ];
 
 export default function Header() {
@@ -30,7 +38,7 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="text-lg font-bold tracking-tight hover:text-blue-300 transition-colors">
-              DOH Manuals
+              PH Health Ref
             </Link>
 
             <nav className="hidden md:flex items-center gap-6 text-sm">

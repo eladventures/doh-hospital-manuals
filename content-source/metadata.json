@@ -742,7 +742,7 @@
     "facilities": "Hospital planning, design, green/safe facilities, climate resilience",
     "waste": "Healthcare waste management and auditing",
     "infection-control": "Infection prevention and control policies",
-    "WASH": "Water, sanitation, hygiene — safety plans, WASHFIT, roadmap",
+    "wash": "Water, sanitation, hygiene — safety plans, WASHFIT, roadmap",
     "laboratory": "Lab biosafety, specimen transport, blood services (NVBSP)",
     "emergency": "Emergency department management standards",
     "policies": "Administrative orders, department circulars, licensing, patient safety, CQI, IHOMP",
@@ -753,6 +753,7 @@
     "formulary": "Philippine National Formulary and essential medicines list",
     "laws": "Republic Acts — UHC Act, Mental Health Act, Data Privacy Act",
     "surveillance": "Disease surveillance, PIDSR, mandatory reporting",
-    "health-it": "Health IT standards, NHDR, FHIR, PHCDI, claims forms, interoperability"
+    "health-it": "Health IT standards, NHDR, FHIR, PHCDI, claims forms, interoperability",
+    "global-standards": "WHO and international standards — ICD-10, surgical safety, digital health, referral systems, lab quality"
   }
 }
